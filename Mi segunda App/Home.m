@@ -18,6 +18,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
+- (IBAction)changeButtonPressed:(id)sender {
+    self.lblWelcome.text = @"Adios Mundo";
+}
 
 
 - (void)didReceiveMemoryWarning {
